@@ -1,5 +1,3 @@
-import pytest
-
 # Создание тестовых файлов
 def test_one():
     print(" >>> I'm test one!")
