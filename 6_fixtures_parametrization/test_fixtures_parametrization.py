@@ -1,12 +1,12 @@
 import pytest
 
 
-@pytest.mark.parametrize("test_input", [1, 2, 3])
+@pytest.mark.parametrize("test_input", [1, 2, 3, 4, 5])
 def test_one_2(test_input):
     print(test_input)
 
 
-@pytest.mark.parametrize("test_input", [1, 2, 3])
+@pytest.mark.parametrize("test_input", [1, 2, 3,4, 5, 6, 7])
 class TestClassParametrized:
 
     # Все функци должны использовать аргумент
